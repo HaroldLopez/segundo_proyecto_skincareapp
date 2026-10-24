@@ -5,7 +5,7 @@
  * productos no dependan directamente de la implementación del navegador.
  */
 
-export const STORAGE_KEY = "tazzaProducts";
+export const STORAGE_KEY = "skinCareProducts";
 
 // Obtiene los productos del almacenamiento local
 export function getProducts(storage = window.localStorage) {
